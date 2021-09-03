@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <FrameLayout
+        android:id="@+id/camera_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:background="@color/ContCamera">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:id="@+id/Floating"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#FFFFFF"
+            android:contentDescription="Voltar para página inicial"
+            app:maxImageSize="35dp"
+            app:srcCompat="@drawable/voltar"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+
+        <View
+            android:id="@+id/pointer_ring"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:background="@drawable/pointer_ring"
+            />
+
+        <TextView
+            android:id="@+id/Texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/LogoCor"
+            android:background="@color/Branco"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:layout_marginTop="88dp"/>
+
+        <View
+            android:id="@+id/color_pointer"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_gravity="center"
+            android:background="@drawable/pointer" />
+
+        <ImageButton
+            android:id="@+id/Flash"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center_vertical|end"
+            android:background="@drawable/ic_flashoff"
+            android:contentDescription="@string/FlashLigado"
+            android:visibility="visible"/>
+
+
+        <ImageButton
+            android:id="@+id/Audio"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="23dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_volume_off"
+            android:contentDescription="@string/AudioLigado" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:id="@+id/fab"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#FFFFFF"
+            android:layout_gravity="left|bottom"
+            android:contentDescription="Voltar para página inicial"
+            app:maxImageSize="35dp"
+            app:srcCompat="@drawable/ic_feedback"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"/>
+
+    </FrameLayout>
+
+</FrameLayout>

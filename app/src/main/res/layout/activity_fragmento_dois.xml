@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Branco"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="254dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/arvo"
+            android:text="@string/Selecione"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="398dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Dicromatico"
+            android:layout_width="210dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="80dp"
+            android:fontFamily="@font/arvo"
+            android:text="@string/Daltonico2"
+            android:contentDescription="@string/Daltonico2"/>
+
+        <Button
+            android:id="@+id/Tricromatico"
+            android:layout_width="210dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/arvo"
+            android:text="@string/Daltonico3"
+            android:contentDescription="@string/Daltonico3"/>
+
+        <Button
+            android:id="@+id/Cegueira"
+            android:layout_width="210dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/arvo"
+            android:layout_marginTop="80dp"
+            android:text="@string/Cegueira"
+            android:contentDescription="@string/Cegueira"/>
+        <Button
+            android:id="@+id/Normal"
+            android:layout_width="210dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/arvo"
+            android:layout_marginTop="160dp"
+            android:text="@string/Nenhum"
+            android:contentDescription="@string/Nenhum"/>
+        <Button
+            android:id="@+id/Acromatico"
+            android:layout_width="210dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/arvo"
+            android:layout_marginBottom="160dp"
+            android:text="@string/Daltonico1"
+            android:contentDescription="@string/Daltonico1"/>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Branco">
+
+    <LinearLayout
+        android:id="@+id/topPanel"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:background="@color/BackNormal"
+        android:layout_gravity="top"
+        android:scrollbarThumbHorizontal="@color/LogoCor"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="73dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/bentivi"
+                android:contentDescription="@string/Desc"/>
+
+            <TextView
+                android:id="@+id/Lo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/lobstertworegular"
+                android:text="@string/app_name"
+
+                android:textColor="@color/Branco"
+                android:textSize="40sp" tools:targetApi="jelly_bean" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="647dp"
+        android:background="@color/Branco">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+
+            android:fontFamily="@font/arvo"
+            android:text="@string/Sobre"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/WebView"
+            android:layout_width="396dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/arvo"
+            android:text="@string/informação"
+            android:textSize="18sp"
+            android:textAlignment="center" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:id="@+id/Camera"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginEnd="95dp"
+            android:background="@drawable/botao"
+            android:backgroundTintMode="add"
+            android:drawableTop="@drawable/camera"
+            android:fontFamily="@font/geosans"
+            android:scrollbarStyle="insideOverlay"
+            android:selectAllOnFocus="false"
+            android:text="@string/IdentificarCor"
+            android:contentDescription="@string/IdentificarCor"
+            android:textAllCaps="false"
+            android:textColor="@color/Branco"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Money"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginStart="95dp"
+            android:background="@drawable/botao"
+            android:backgroundTintMode="add"
+            android:contentDescription="@string/IdentificarDinheiro"
+            android:drawableTop="@drawable/dinheiro"
+            android:fontFamily="@font/geosans"
+            android:text="@string/IdentificarDinheiro"
+            android:textAllCaps="false"
+            android:textColor="@color/Branco"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+</GridLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Bentivi</string>
+    <string name="title_activity_primeira">Tela de boas vindas</string>
+
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="Desc">Logo</string>
+
+    <string name="informação">Este aplicativo busca trazer a ideia da necessidade da adaptação do mundo às pessoas com alguma limitação, tornando assim uma questão social e humanitária, incentivando a programação na área da acessibilidade e entregando para comunidade um mecanismo que irá facilitar no cotidiano em diversas atividades. Porém, o seu funcionamento também abrange o sistema educacional, funcionando como uma ferramenta didática no processo de ensino e aprendizagem das cores. </string>
+    <string name="BotãoCamera">Identificar Cor</string>
+    <string name="BotãoDinheiro">Identificar Dinheiro</string>
+
+    <string name="FlashLigado">Flash</string>
+    <string name="FlashDesligado">Flash</string>
+    <string name="AudioLigado">Áudio</string>
+    <string name="AudioDeligado">Áudio</string>
+
+    <string name="Daltonico1">Daltonico - Acromático</string>
+    <string name="Daltonico2">Daltonico - Dicromático</string>
+    <string name="Daltonico3">Daltonico - Tricromático</string>
+    <string name="Cegueira">Cegueira</string>
+    <string name="Nenhum">Nenhum</string>
+    <string name="Sobre">Sobre</string>
+
+    <string name="Selecione">Selecione:</string>
+    <string name="IdentificarCor">Identificar Cor</string>
+    <string name="IdentificarDinheiro">Identificar Dinheiro</string>
+    <string name="ProximaPagina">Avançar</string>
+
+</resources>

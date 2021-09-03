@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="ContCamera">#808080</color>
+    <color name="Branco">#FFFFFF</color>
+
+    <color name="LogoCor">#000000</color>
+    <color name="Teste">#0D4ECF</color>
+    <color name="BrancoE">#5BF3EEEE</color>
+    <color name="BackMain">#E1EEEBEB</color>
+
+    <color name="BackFundo">#EEE8E8</color>
+
+    <color name="BackDicro">#1A35C4</color>
+    <color name="BackButtonDicro">#3149F1</color>
+
+    <color name="BackAcro">#F7F4F4</color>
+    <color name="BackButtonAcro">#F7F4F4</color>
+
+    <color name="BackTrico">#6D6C6C</color>
+    <color name="BackButtonTrico">#6D6C6C</color>
+
+    <color name="BackNormal">#F44336</color>
+    <color name="BackButtonNormal">#000000</color>
+
+    <color name="FontCorBranco">#FFF</color>
+    <color name="FontCorPreto">#000</color>
+</resources>
